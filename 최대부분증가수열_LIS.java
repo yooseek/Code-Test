@@ -11,6 +11,7 @@ public class Main {
 		
 		if(index==0) {
 			arr[index] = 1;
+			answer = Math.max(answer,arr[index]);
 			return;
 		}
 		int max = 0;
